@@ -12,7 +12,7 @@ public class Mainline {
 		savingsA.deposit(0.50);
 		savingsA.setIntRate(0.025);
 		
-/*
+
 		Checking checkingB = new Checking();
 		checkingB.setDescription("Checking B");
 		checkingB.setLastCheckNbr(100);
@@ -27,14 +27,14 @@ public class Mainline {
 		Checking checkingD = new Checking();
 		checkingD.setDescription("Checking D");
 		checkingD.setLastCheckNbr(230);
-		checkingD.deposit(200.00);  */
+		checkingD.deposit(200.00);  
 		
 		
 		ArrayList<Account> accounts = new ArrayList<Account>();
 		accounts.add(savingsA);
-//		accounts.add(checkingB);
-//		accounts.add(savingsC);
-//		accounts.add(checkingD);
+		accounts.add(checkingB);
+		accounts.add(savingsC);
+		accounts.add(checkingD);
 
 
         System.out.println("T  Act\tDescription\t\tBal\t\tChk\tRate");
